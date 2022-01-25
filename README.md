@@ -1,5 +1,10 @@
-# ICT-project
-MSE310: using LabView to create a valid ICT sorting system
+# Industrial Control Trainer (ICT3) Project
+
+The Industrial Control Trainer represents an industrial assembly system that allows the study of control methods used in product assembly and inspection in a manufacturing process. Various industrial sensors and the methods, in which they can be used, are studied. The Sensors and actuators are used to sort components, assemble them and test for correct assembly followed by acceptance or rejection. 
+
+![Saved_ICT_Image](https://user-images.githubusercontent.com/73859429/151052198-798a34c7-4c94-4a62-b673-699719aa8ce1.jpeg)
+
+![ICT Flow Chart](https://user-images.githubusercontent.com/73859429/151050518-3451cf23-866d-4084-8d71-79b8a1dc28af.jpg)
 
 ## Components that work in the ICT implementation:
 
