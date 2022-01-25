@@ -1,9 +1,9 @@
 # ICT-project
 MSE310: using LabView to create a valid ICT sorting system
 
-#What works in your implementation?
+# What works in your implementation?
 
-##Components that work in our implementation:
+## Components that work in our implementation:
 
 	1. Real-time snapshot indicating sensors and actuators are active/deactivated at all times
 	2. Number of widgets processed during the operation
@@ -32,9 +32,9 @@ MSE310: using LabView to create a valid ICT sorting system
    incremented as top solenoid is active, and decremented as the Dropper sensor is active. 
    The increment/decrement of count is based off rising edges as well as event cases for said sensors
 
-#What doesn't work in your implementation?
+# What doesn't work in your implementation?
 
-##Components that don't work in our implementation:
+## Components that don't work in our implementation:
 
 	1. saving of Boolean values for status detection
 	2. Pause/Unpause Button
@@ -43,7 +43,7 @@ MSE310: using LabView to create a valid ICT sorting system
 
 2) The Pause/Unpause button is not implemented
 
-#What needs improvement in your implementation?
+# What needs improvement in your implementation?
 
 If some more time was provided the missing components of the program (Saving of Boolean Values & Pause button)
 would have been completed. Both components however are quite simple to implement. 
