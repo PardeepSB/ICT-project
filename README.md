@@ -3,7 +3,7 @@
 The Industrial Control Trainer represents an industrial assembly system that allows the study of control methods used in product assembly and inspection in a manufacturing process. Various industrial sensors and the methods, in which they can be used, are studied. The Sensors and actuators are used to sort components, assemble them and test for correct assembly followed by acceptance or rejection. 
 
 
-![ICT Video](https://user-images.githubusercontent.com/73859429/163284797-69b0d060-c132-475e-b125-c04908e3a534.mp4)
+https://user-images.githubusercontent.com/73859429/163284797-69b0d060-c132-475e-b125-c04908e3a534.mp4
 
 ![ICT Flow Chart](https://user-images.githubusercontent.com/73859429/151050518-3451cf23-866d-4084-8d71-79b8a1dc28af.jpg)
 
