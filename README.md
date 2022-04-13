@@ -2,7 +2,8 @@
 
 The Industrial Control Trainer represents an industrial assembly system that allows the study of control methods used in product assembly and inspection in a manufacturing process. Various industrial sensors and the methods, in which they can be used, are studied. The Sensors and actuators are used to sort components, assemble them and test for correct assembly followed by acceptance or rejection. 
 
-![Saved_ICT_Image](https://user-images.githubusercontent.com/73859429/151052198-798a34c7-4c94-4a62-b673-699719aa8ce1.jpeg)
+
+![ICT Video](https://user-images.githubusercontent.com/73859429/163284797-69b0d060-c132-475e-b125-c04908e3a534.mp4)
 
 ![ICT Flow Chart](https://user-images.githubusercontent.com/73859429/151050518-3451cf23-866d-4084-8d71-79b8a1dc28af.jpg)
 
@@ -37,7 +38,7 @@ The Industrial Control Trainer represents an industrial assembly system that all
 
 ## Components that don't work in the ICT implementation:
 
-	1. saving of Boolean values for status detection
+	1. Saving of Boolean values for status detection
 	2. Pause/Unpause Button
 
 1) The saving of Boolean values, such as status for a variety of sensors is not implemented
@@ -61,18 +62,17 @@ As for improving the current design of the implementation, there are many improv
 
 For instance:
 
-	* Adjusting and working on the queue code to make it more accurate for moments when multiple 
-	  components are lined up back to back for queuing.
-		- Also have the queue determine whether or not a non-assembled widget passing is a plastic
-		  or metal, to create a more clear understanding when the rejection process occurs.
+ * Adjusting and working on the queue code to make it more accurate for moments when multiple components are lined up back to back for queuing.
+ 	* Also have the queue determine whether or not a non-assembled widget passing is a plastic 
+ 	  or metal, to create a more clear understanding when the rejection process occurs.
 
-	* Improve or add more logic that applies for the rotary as some errors may occur
+* Improve or add more logic that applies for the rotary as some errors may occur
 
-	* Have the belt motor stop when there are no plastics widgets present within the dropper. This 
-	  will increase efficiency as metal widgets will wait at the beginning of the belt motor
-	  until there are plastics present, so more assemblies can be made.
+* Have the belt motor stop when there are no plastics widgets present within the dropper. This 
+  will increase efficiency as metal widgets will wait at the beginning of the belt motor
+  until there are plastics present, so more assemblies can be made.
 
-	* Implement each component in its own while loop and add wait timers as time delays act in a
-	  isolated manner when applied over the course of multiple while loops. In the current state
-	  of the code, falling and rising edges allow for the program to work without any time delay.
+* Implement each component in its own while loop and add wait timers as time delays act in a
+  isolated manner when applied over the course of multiple while loops. In the current state
+  of the code, falling and rising edges allow for the program to work without any time delay.
 
