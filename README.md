@@ -4,6 +4,7 @@ The Industrial Control Trainer represents an industrial assembly system that all
 
 
 https://user-images.githubusercontent.com/73859429/163284797-69b0d060-c132-475e-b125-c04908e3a534.mp4
+
 ![ICT Flow Chart](https://user-images.githubusercontent.com/73859429/163288216-c8e3f9c7-434b-46be-87a2-d0cb0649c92e.png)
 
 
